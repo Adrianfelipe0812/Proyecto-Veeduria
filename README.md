@@ -68,11 +68,13 @@ La presencia de estos archivos no significa que ya hayan sido depurados, integra
 .
 ├── README.md
 ├── Capa Bronce/          # Archivos fuente originales
-└── Capa Silver/
-    └── README.md         # Propósito y flujo de transformación previsto
+├── Capa Silver/          # Preparación e integración prevista
+│   └── README.md
+└── Capa Gold/            # Productos analíticos y consumo previsto
+    └── README.md
 ```
 
-La capa Silver está documentada como preparación para el trabajo en Databricks. Todavía no contiene código ELT ni datos procesados. La capa Gold se agregará cuando se inicie su diseño.
+Silver y Gold contienen documentación de preparación para el trabajo previsto en Databricks. Todavía no incluyen código ELT, consultas SQL, tablas procesadas ni visualizaciones.
 ## Equipo
 
 - Jhonatan Smith Doncel Murillo
