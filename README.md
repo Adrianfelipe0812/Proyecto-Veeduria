@@ -62,18 +62,17 @@ La carpeta [`Capa Bronce/`](Capa%20Bronce/) contiene los cuatro archivos incorpo
 
 La presencia de estos archivos no significa que ya hayan sido depurados, integrados o utilizados para producir resultados. Antes de su análisis se deben revisar su contenido, cobertura, calidad, condiciones de uso y correspondencia entre metas y cortes.
 
-## Estructura actual
+## Estructura preparada
 
 ```text
 .
 ├── README.md
-└── Capa Bronce/
-    ├── 01_avancefisico20260630 (1).xlsx
-    ├── inf_pdd_30_6_26.pdf
-    ├── planacciongestioninversion20260630_entidades.pdf
-    └── planacciongestioninversion20260630_ver20260728 (1).xlsx
+├── Capa Bronce/          # Archivos fuente originales
+└── Capa Silver/
+    └── README.md         # Propósito y flujo de transformación previsto
 ```
 
+La capa Silver está documentada como preparación para el trabajo en Databricks. Todavía no contiene código ELT ni datos procesados. La capa Gold se agregará cuando se inicie su diseño.
 ## Equipo
 
 - Jhonatan Smith Doncel Murillo
@@ -94,3 +93,4 @@ Facultad de Estadística, Maestría en Ciencia de Datos — Universidad Santo To
 ## Licencia y uso de datos
 
 El repositorio aún no especifica una licencia de software o de datos. Antes de redistribuir los archivos, se deben verificar las condiciones de uso, atribución y publicación de cada fuente institucional y definir una licencia apropiada.
+
