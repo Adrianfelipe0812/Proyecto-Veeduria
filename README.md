@@ -2,7 +2,7 @@
 
 > Anteproyecto de trabajo de grado — Facultad de Estadística, Maestría en Ciencia de Datos, Universidad Santo Tomás, seccional Bogotá.
 
-## Resumen
+## Resumen  
 
 Este proyecto propone integrar información financiera, avances físicos y reportes institucionales para estudiar la eficiencia técnica de metas-producto comparables del Plan Distrital de Desarrollo (PDD) de Bogotá 2024–2027, **“Bogotá Camina Segura”**, y explorar la identificación anticipada de riesgos de subejecución física.
 
